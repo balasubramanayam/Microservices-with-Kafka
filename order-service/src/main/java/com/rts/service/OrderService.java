@@ -25,8 +25,8 @@ public class OrderService {
 	@Autowired
 	private OrderDao orderDao;
 	
-	//bin\windows\zookeeper-server-start.bat config\zookeeper.properties
-	//bin\windows\kafka-server-start.bat config\server.properties
+	//bin\windows>zookeeper-server-start.bat C:\kafka\kafka\config\zookeeper.properties
+	//bin\windows\kafka-server-start.bat C:\kafka\kafka\config\server.properties
 	
 	@Autowired
 	private KafkaTemplate<String, Object> kafkaTemplate;
